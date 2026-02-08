@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/press-kit', // Nome exato do seu repositório
+  basePath: '/press-kit', 
   images: {
     unoptimized: true,
   },
