@@ -6,6 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -125,4 +126,13 @@
   body {
     @apply bg-background text-foreground;
   }
+  .font-title {
+    font-family: var(--font-title);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
 }
+
