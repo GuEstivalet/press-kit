@@ -13,7 +13,7 @@ export default function Page() {
       <section
   className="
     relative w-full
-    bg-[url(/press-kit/public/bg.jpeg)]
+    bg-[url(/bg.jpeg)]
     bg-repeat
     bg-[length:180px_180px]
     font-[1000]
@@ -54,7 +54,7 @@ export default function Page() {
       className="w-full h-80 rounded-2xl shadow-lg overflow-hidden bg-white"
     >
       <img
-        src="/press-kit/public/poli.jpeg"
+        src="/poli.jpeg"
         alt="Quem sou"
         className="w-full h-full object-cover object-top"
       />
@@ -68,10 +68,10 @@ export default function Page() {
           
           <div className="flex flex-row lg:flex-col gap-3 justify-center items-center lg:items-end order-2 lg:order-1">
             <div className="w-28 h-40 md:w-56 md:h-72 rounded-2xl overflow-hidden shadow-lg rotate-[-2deg] -translate-x-4 hover:rotate-0 transition-transform duration-500">
-              <img src="/press-kit/public/poppi.jpeg" alt="Foto 1" className="w-full h-full object-cover" />
+              <img src="/poppi.jpeg" alt="Foto 1" className="w-full h-full object-cover" />
             </div>
             <div className="w-24 h-24 md:w-48 md:h-48 rounded-full overflow-hidden shadow-md lg:translate-x-4 ">
-              <img src="/press-kit/public/popistica.jpeg" alt="Foto 2" className="w-full h-full object-cover" />
+              <img src="/popistica.jpeg" alt="Foto 2" className="w-full h-full object-cover" />
             </div>
           </div>
 
@@ -91,10 +91,10 @@ export default function Page() {
 
           <div className="flex flex-row lg:flex-col gap-3 justify-center items-center lg:items-start order-3 ">
             <div className="w-24 h-24 md:w-52 md:h-52 rounded-[30px] overflow-hidden shadow-md -translate-x-4 hover:rotate-0 transition-transform duration-500">
-              <img src="/press-kit/public/popi.png" alt="Foto 3" className="w-full h-full object-cover" />
+              <img src="/popi.png" alt="Foto 3" className="w-full h-full object-cover" />
             </div>
             <div className="w-28 h-40 md:w-56 md:h-72 rounded-2xl overflow-hidden shadow-lg rotate-[3deg] lg:-translate-x-4 -translate-x-4 hover:rotate-0 transition-transform duration-500">
-              <img src="/press-kit/public/popinha.png" alt="Foto 4" className="w-full h-full object-cover" />
+              <img src="/popinha.png" alt="Foto 4" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -118,20 +118,20 @@ export default function Page() {
       }}
     >
       {[
-        "/press-kit/public/companhia.png",
-        "/press-kit/public/lepm.png",
-        "/press-kit/public/oasys.jpg",
-        "/press-kit/public/olho_de_vidro.png",
-        "/press-kit/public/record.jpg",
-        "/press-kit/public/pessoa.png",
-        "/press-kit/public/tag.png",
-        "/press-kit/public/companhia.png",
-        "/press-kit/public/lepm.png",
-        "/press-kit/public/oasys.jpg",
-        "/press-kit/public/olho_de_vidro.png",
-        "/press-kit/public/record.jpg",
-        "/press-kit/public/pessoa.png",
-        "/press-kit/public/tag.png",
+        "/companhia.png",
+        "/lepm.png",
+        "/oasys.jpg",
+        "/olho_de_vidro.png",
+        "/record.jpg",
+        "/pessoa.png",
+        "/tag.png",
+        "/companhia.png",
+        "/lepm.png",
+        "/oasys.jpg",
+        "/olho_de_vidro.png",
+        "/record.jpg",
+        "/pessoa.png",
+        "/tag.png",
       ].map((src, index) => (
         <div
           key={index}
