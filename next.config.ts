@@ -1,13 +1,15 @@
 // next.config.ts
 import type { NextConfig } from "next";
 
-const repo = "press-kit"; // <- NOME DO REPO no GitHub
+const repo = "press-kit"; // NOME EXATO do repositório no GitHub
 const isGithubPages = process.env.GITHUB_PAGES === "true";
 
 const nextConfig: NextConfig = {
-  output: "export",          // static export (necessário para GitHub Pages)
-  trailingSlash: true,       // ajuda no roteamento estático
-  images: { unoptimized: true }, // evita otimização do next/image (não rola no Pages)
+  output: "export", // obrigatório para static export
+  trailingSlash: true, // evita problemas de rota no Pages
+  images: {
+    unoptimized: true, // necessário porque o Pages não roda o image optimizer
+  },
 
   ...(isGithubPages
     ? {
