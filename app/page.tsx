@@ -123,14 +123,14 @@ export default function Page() {
         "./oasys.jpg",
         "./olho_de_vidro.png",
         "./record.jpg",
-        "./pessoa.png",
+        "./vestigio.png",
         "./tag.png",
         "./companhia.png",
         "./lepm.png",
         "./oasys.jpg",
         "./olho_de_vidro.png",
         "./record.jpg",
-        "./pessoa.png",
+        "./vestigio.png",
         "./tag.png",
       ].map((src, index) => (
         <div
@@ -227,28 +227,33 @@ export default function Page() {
       Como funciona a parceria:
     </h2>
 
-    <div className="grid md:grid-cols-4 gap-10">
+    <div className="grid md:grid-cols-5 gap-8">
       {[
         {
           step: "01",
           title: "Primeiro contato",
-          desc: " Nós conversamos melhor sobre a sua obra e fazemos uma análise de como o livro se encaixa no meu perfil e conteúdo, alinhando essa etapa,  acertamos as expectativas sobre essa parceria de um modo que fique positivo para os dois lados.",
+          desc: "Conversamos sobre a sua obra, objetivos da divulgação e expectativas para a parceria. Nessa etapa, analiso como o livro se encaixa no meu perfil e no conteúdo que produzo, buscando construir uma colaboração alinhada, estratégica e positiva para ambos os lados.",
         },
         {
           step: "02",
-          title: "Envio do livro",
-          desc: "Após conversarmos sobre os detalhes da nossa parceria e estabelecer o plano que vamos trabalhar, o exemplar do livro deve ser enviado para eu começar o processo de leitura respeitando o prazo de até 1 mês a partir do recebimento. Esse tempo é necessário para iniciar a leitura e o processo criativo da produção do nosso conteúdo."
+          title: "Formalização da parceria",
+          desc: "Após a definição do pacote ideal, encaminho por e-mail o contrato de prestação de serviços, onde ficam esclarecidos todos os detalhes da parceria, incluindo direitos, prazos, entregas e condições acordadas entre as partes."
         },
         {
           step: "03",
-          title: "Leitura e criação",
-          desc: "Durante o recebimento do livro e o processo de leitura, compartilho impressões em tempo reais nos stories e começo o roteiro do conteúdo de forma autêntica, orgânica e cuidadosa.",
+          title: "Planejamento e envio do exemplar",
+          desc: "Com a parceria formalizada, o exemplar deve ser enviado para início do processo de leitura. O prazo para produção é de até 30 dias após o recebimento do livro, período necessário para leitura, análise e desenvolvimento criativo do conteúdo.",
         },
         {
           step: "04",
-          title: "Publicação",
-          desc: "O conteúdo combinado é publicado conforme estabelecemos e seguindo o plano contratado, sempre prezando por transparência, respeito à obra e a minha experiência real como leitora.",
+          title: "Leitura e desenvolvimento criativo",
+          desc: "Durante a leitura, compartilho impressões espontâneas nos stories e inicio a construção do roteiro e conceito do conteúdo. Todo o processo é feito de forma autêntica, cuidadosa e alinhada à minha experiência real como leitora.",
         },
+        {
+          step: "05",
+          title: "Produção e publicação",
+          desc: "O conteúdo contratado é produzido e publicado conforme o planejamento definido previamente. Prezo sempre pela transparência, qualidade da entrega e respeito à obra, mantendo uma comunicação natural e verdadeira com o público.",
+        }
       ].map((item, index) => (
         <div key={index} className="space-y-3">
           <span className="text-sm font-semibold text-[#D9A4B8]">
@@ -332,7 +337,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
     <div className="mt-12 flex justify-center">
       <div className="inline-flex items-center gap-3 bg-white text-[#5E8C61] px-8 py-3 rounded-full font-bold shadow-xl">
         <Instagram className="w-5 h-5" />
-        <span>Comunidade de 6.7K seguidores</span>
+        <span>Comunidade de 8.500 seguidores</span>
       </div>
     </div>
   </div>
@@ -348,7 +353,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
       {[
         {
           title: "Plano Essencial",
-          price: "R$ 150,00",
+          price: "R$ 200,00",
           desc: (
             <ul className="space-y-2">
               <li>• Chegada do livro;</li>
@@ -366,7 +371,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
         },
         {
           title: "Plano Intermediário",
-          price: "R$ 250,00",
+          price: "R$ 300,00",
           desc: (
             <ul className="space-y-2">
               <li>
@@ -383,7 +388,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
         {
           title: "Plano Completo",
           badge: "Melhor custo-benefício",
-          price: "R$ 300,00",
+          price: "R$ 380,00",
           desc: (
             <p>
               Valor fixo que contempla todas as entregas dos planos,
@@ -428,21 +433,73 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
   </div>
 </section>
 
-<section className="py-16 md:py-20 bg-white px-4 md:px-6"> 
+<section className="py-16 md:py-20 px-4 md:px-6 max-w-6xl mx-auto px-6"> 
   {/* Adicionado px-4 para criar a margem lateral no mobile */}
   
-  <div className="bg-[#D9A4B8] rounded-3xl p-6 md:p-10 max-w-6xl mx-auto shadow-sm">
-    {/* Ajustado de p-10 para p-6 no mobile para ganhar espaço interno */}
-    
-    <h3 className="font-body text-xl md:text-2xl mb-4 font-bold text-neutral-900">
-      Sobre o pagamento
+  <div className="mb-6 ">
+    <h3 className="text-2xl font-semibold ">
+      Sobre o Pagamento
     </h3>
-    
-    <p className="leading-relaxed text-sm md:text-base text-neutral-800">
-      O pagamento pode ser realizado antes ou após o envio do livro, conforme for mais confortável para você. 
-      Peço apenas que o valor seja efetuado antes do início do processo criativo, a partir da chegada do livro 
-      em minhas mãos, para que o trabalho seja desenvolvido de forma organizada e tranquila para ambas as partes.
+
+    <div className="mt-3 h-px w-20 bg-gradient-to-r from-[#E5A4CB] to-transparent" />
+  </div>
+
+  <div className="space-y-6  leading-relaxed">
+    <p>
+      O pagamento pode ser realizado antes ou após o envio do livro,
+      conforme for mais confortável para você. Peço apenas que o valor
+      seja efetuado antes do início do processo criativo, a partir da
+      chegada do livro em minhas mãos, para que o trabalho seja
+      desenvolvido de forma organizada e tranquila para ambas as partes.
     </p>
+
+    <div className="grid gap-4 md:grid-cols-3">
+      <div className="rounded-2xl border p-5 transition-all hover:border-[#E5A4CB] bg-[#F5D7E3]">
+        <div className="mb-3 flex items-center gap-2">
+          <div className="h-2 w-2 rounded-full bg-white" />
+          <span className="text-sm uppercase tracking-wide font-bold">
+            Opção 1
+          </span>
+        </div>
+
+        <p className="text-sm">
+          <span className="font-medium">50%</span> na
+          assinatura do contrato e{" "}
+          <span className="font-medium">50%</span> após a
+          entrega/publicação do conteúdo principal.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border p-5 transition-all hover:border-[#E5A4CB] bg-[#F5D7E3]">
+        <div className="mb-3 flex items-center gap-2">
+          <div className="h-2 w-2 rounded-full bg-white" />
+          <span className="text-sm uppercase tracking-wide font-bold">
+            Opção 2
+          </span>
+        </div>
+
+        <p className="text-sm">
+          Pagamento <span className="font-medium">integral</span>{" "}
+          na assinatura do contrato.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border p-5 transition-all hover:border-[#E5A4CB] bg-[#F5D7E3]">
+        <div className="mb-3 flex items-center gap-2">
+          <div className="h-2 w-2 rounded-full bg-white" />
+          <span className="text-sm uppercase tracking-wide font-bold">
+            Opção 3
+          </span>
+        </div>
+
+        <p className="text-sm">
+          <span className="font-medium ">50%</span> após o
+          envio do livro/produto para o endereço da contratada e{" "}
+          <span className="font-medium">50%</span> após a
+          entrega/publicação do conteúdo principal.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
       {/* CONTATO */}
