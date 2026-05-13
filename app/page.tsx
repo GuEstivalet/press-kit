@@ -435,8 +435,21 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
 
 <section className="py-16 md:py-20 px-4 md:px-6 max-w-6xl mx-auto px-6"> 
   {/* Adicionado px-4 para criar a margem lateral no mobile */}
-  
   <div className="mb-6 ">
+    <h3 className="text-2xl font-semibold ">
+      Posicionamento 
+    </h3>
+
+    <div className="mt-3 h-px w-20 bg-gradient-to-r from-[#E5A4CB] to-transparent" />
+  </div>
+
+  <div className="space-y-6  leading-relaxed">
+    <p>
+      Valorizo profundamente o trabalho artístico presente no mercado editorial e, por isso, priorizo parcerias com autores e editoras que trabalham com capas desenvolvidas por artistas e designers. Acredito na importância da arte humana no processo criativo e na valorização dos profissionais que constroem visualmente a identidade de cada obra.
+    </p>
+    </div>
+ 
+  <div className="mb-6 mt-16 ">
     <h3 className="text-2xl font-semibold ">
       Sobre o Pagamento
     </h3>
@@ -453,7 +466,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
       desenvolvido de forma organizada e tranquila para ambas as partes.
     </p>
 
-    <div className="grid gap-4 md:grid-cols-3">
+    <div className="grid gap-4 md:grid-cols-3 mt-10">
       <div className="rounded-2xl border p-5 transition-all hover:border-[#E5A4CB] bg-[#F5D7E3]">
         <div className="mb-3 flex items-center gap-2">
           <div className="h-2 w-2 rounded-full bg-white" />
