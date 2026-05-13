@@ -13,7 +13,7 @@ export default function Page() {
       <section
   className="
     relative w-full
-    bg-[url(/bg.jpeg)]
+    bg-[url(./bg.jpeg)]
     bg-repeat
     bg-[length:180px_180px]
     font-[1000]
