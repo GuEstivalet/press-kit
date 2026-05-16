@@ -356,16 +356,16 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
           price: "R$ 200,00",
           desc: (
             <ul className="space-y-2">
-              <li>• Chegada do livro;</li>
-              <li>• Atualizações ao longo da leitura;</li>
+              <li>Ideal para autores que desejam apresentar a obra à minha comunidade de forma orgânica e afetiva.</li>
+              <li>Inclui:</li>
+              <li>• Recebimento e apresentação do livro nos stories;</li>
               <li>
-                • Compartilhamento sincero da minha experiência como
-                leitora;
+                • Atualizações espontâneas ao longo da leitura;
               </li>
               <li>
-                • Participação do livro em listas futuras de indicações,
-                sempre que houver diálogo com a temática da obra.
+                • Compartilhamento sincero da minha experiência como leitora;
               </li>
+              <li>• Inclusão do livro em listas  indicações relacionadas à temática da obra através de carroseis no feed.</li>
             </ul>
           ),
         },
@@ -374,13 +374,13 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
           price: "R$ 300,00",
           desc: (
             <ul className="space-y-2">
+              <li>Para autores que desejam maior alcance e um conteúdo dedicado ao livro.</li>
+              <li>Inclui:</li>
               <li>
-                • 1 Reels ou post no feed, definido de acordo com o meu
-                processo criativo e alinhado com a obra;
+                • 1 conteúdo principal (Reels ou post), uma produção alinhada ao meu processo criativo e à proposta da obra;
               </li>
               <li>
-                • 1 resenha escrita publicada na Amazon e no Skoob,
-                após a leitura.
+                • 1 resenha escrita publicada na Amazon e outra no Skoob.
               </li>
             </ul>
           ),
@@ -388,13 +388,26 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
         {
           title: "Plano Completo",
           badge: "Melhor custo-benefício",
-          price: "R$ 380,00",
+          price: "R$ 350,00",
           desc: (
-            <p>
-              Valor fixo que contempla todas as entregas dos planos,
-              reunindo divulgação contínua e aprofundada do livro ao
-              longo do meu processo de leitura.
-            </p>
+            <ul className="space-y-2">
+              <li>Para autores que buscam uma divulgação mais profunda e constante.</li>
+              <li>
+               Inclui, todas as entregas dos planos anteriores (Plano essencial + Plano intermediário) além de: 
+              </li>
+              <li>
+                • Cobertura completa da experiência de leitura nos stories;
+              </li>
+              <li>
+                • Conteúdos adicionais espontâneos durante o processo nos stories;  
+              </li>
+              <li>
+                • Maior presença do livro no feed e indicações;
+              </li>
+              <li>
+                • Divulgação prolongada mesmo após o término da leitura.
+              </li>
+            </ul>
           ),
         },
       ].map((pkg, index) => (
