@@ -337,7 +337,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
     <div className="mt-12 flex justify-center">
       <div className="inline-flex items-center gap-3 bg-white text-[#5E8C61] px-8 py-3 rounded-full font-bold shadow-xl">
         <Instagram className="w-5 h-5" />
-        <span>Comunidade de 8.500 seguidores</span>
+        <span>Comunidade de 8.600 seguidores</span>
       </div>
     </div>
   </div>
@@ -360,12 +360,9 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
               <li>Inclui:</li>
               <li>• Recebimento e apresentação do livro nos stories;</li>
               <li>
-                • Atualizações espontâneas ao longo da leitura;
+                • Atualizações espontâneas e sinceras ao longo da minha experiência com a leitura nos stories;
               </li>
-              <li>
-                • Compartilhamento sincero da minha experiência como leitora;
-              </li>
-              <li>• Inclusão do livro em listas  indicações relacionadas à temática da obra através de carroseis no feed.</li>
+              <li>• Inclusão do livro em listas de indicações relacionadas à temática da obra através de carroseis no feed.</li>
             </ul>
           ),
         },
@@ -393,10 +390,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
             <ul className="space-y-2">
               <li>Para autores que buscam uma divulgação mais profunda e constante.</li>
               <li>
-               Inclui, todas as entregas dos planos anteriores (Plano essencial + Plano intermediário) além de: 
-              </li>
-              <li>
-                • Cobertura completa da experiência de leitura nos stories;
+               Inclui, todas as entregas dos planos anteriores (<b>Plano essencial</b> + <b>Plano intermediário</b>) além de: 
               </li>
               <li>
                 • Conteúdos adicionais espontâneos durante o processo nos stories;  
