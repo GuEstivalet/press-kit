@@ -353,7 +353,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
       {[
         {
           title: "Plano Essencial",
-          price: "R$ 200,00",
+          price: "R$ 250,00",
           desc: (
             <ul className="space-y-2">
               <li>Ideal para autores que desejam apresentar a obra à minha comunidade de forma orgânica e afetiva.</li>
@@ -368,7 +368,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
         },
         {
           title: "Plano Intermediário",
-          price: "R$ 300,00",
+          price: "R$ 350,00",
           desc: (
             <ul className="space-y-2">
               <li>Para autores que desejam maior alcance e um conteúdo dedicado ao livro.</li>
@@ -385,7 +385,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
         {
           title: "Plano Completo",
           badge: "Melhor custo-benefício",
-          price: "R$ 350,00",
+          price: "R$ 400,00",
           desc: (
             <ul className="space-y-2">
               <li>Para autores que buscam uma divulgação mais profunda e constante.</li>
