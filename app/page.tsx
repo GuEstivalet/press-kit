@@ -367,7 +367,7 @@ Acompanho o texto ao longo do meu processo de leitura e divido essa experiência
           ),
         },
         {
-          title: "Plano Intermediário",
+          title: "Plano Intermediário ",
           price: "R$ 350,00",
           desc: (
             <ul className="space-y-2">
